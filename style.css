@@ -259,3 +259,42 @@ body{
 .footercard1,.footercard2{
     display: block;
 }
+
+@media (min-width:1400px){
+    .body{
+        max-width: 1250px;
+    }
+}
+
+@media(min-width:1020px){
+    .conatiner{
+        max-width: 900px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .mobile-hide {
+        display:none ;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .logo{
+        height: auto;
+        margin-left: 20px;
+    }
+    .options{
+       
+        font-size: x-large;
+    }
+    .landing_image_class{
+        height:400px;
+        margin-top: 40px;
+        width:700px
+    }
+    .signupbutton{
+        margin-top: 60px;
+    }
+    
+}
